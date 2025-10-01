@@ -1,0 +1,33 @@
+# Игнорировать бинарные и объектные файлы
+*.o
+*.so
+*.exe
+*.dll
+*.obj
+
+# Игнорировать каталоги сборки
+/build/
+/bin/
+/Debug/
+/Release/
+
+# Игнорировать файлы CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Игнорировать временные файлы редакторов и ОС
+*.swp
+*~
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
+
+# Игнорировать папки IDE
+.vscode/
+.idea/
+
+# Игнорировать файлы окружения и секреты
+.env
